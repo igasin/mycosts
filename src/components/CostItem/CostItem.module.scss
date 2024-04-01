@@ -5,8 +5,6 @@
 	padding: 0.5rem;
 	margin: 1rem 0;
 	background-color: #bb8025;
-	border-radius: 10px;
-	box-shadow: 0 2px 7px rgba(0, 0, 0, 0.25);
 
 	h2 {
 		color: #3a3a3a;
@@ -39,8 +37,8 @@
 
 @media (min-width: 580px) {
 	.costItemDescription {
-		flex-direction: row;
-		align-items: center;
+		flex-direction: column-reverse;
+		align-items: flex-end;
 		justify-content: flex-start;
 		flex: 1;
 	}

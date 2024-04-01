@@ -1,9 +1,10 @@
+import { Card } from '../Card/Card'
 import { CostItem } from '../CostItem/CostItem'
 import styles from './Costs.module.scss'
 
 export const Costs = props => {
 	return (
-		<div className={styles.costs}>
+		<Card className={styles.costs}>
 			<CostItem
 				date={props.costs[0].date}
 				description={props.costs[0].description}
@@ -19,6 +20,6 @@ export const Costs = props => {
 				description={props.costs[2].description}
 				amount={props.costs[2].amount}
 			/>
-		</div>
+		</Card>
 	)
 }

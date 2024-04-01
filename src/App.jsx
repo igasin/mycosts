@@ -20,6 +20,7 @@ export function App() {
 	]
 	return (
 		<div>
+			<h1>My Costs</h1>
 			<Costs costs={costsItemsArray} />
 		</div>
 	)
