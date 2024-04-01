@@ -1,4 +1,5 @@
 import { Costs } from './components/Costs/Costs'
+import { NewCost } from './components/NewCost/NewCost'
 
 export function App() {
 	const costsItemsArray = [
@@ -19,9 +20,9 @@ export function App() {
 		},
 	]
 	return (
-		<div>
-			<h1>My Costs</h1>
+		<>
+			<NewCost />
 			<Costs costs={costsItemsArray} />
-		</div>
+		</>
 	)
 }
