@@ -1,6 +1,6 @@
 # MyCosts App
 
-This is a private small weather application built with React and TypeScript.
+This is a mycosts application built with React.
 
 You can visit the site at the following link: [MyCosts App](https://igasin.github.io/mycosts/)
 
