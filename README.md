@@ -1,8 +1,9 @@
-# React + Vite
+# MyCosts App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a private small weather application built with React and TypeScript.
 
-Currently, two official plugins are available:
+You can visit the site at the following link: [MyCosts App](https://igasin.github.io/mycosts/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![MyCosts App screenshot](src\assets\screenShots\mycost.png)
+
+![MyCosts App screenshot](src\assets\screenShots\mycostForm.png)
